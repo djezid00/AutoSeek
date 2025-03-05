@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>AutoSeek</title>
+
+    <!---------------swiper--------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <!-------------------css---------------->
+    <link rel="stylesheet" href="styles.css" />
+
+
+    <!--------------------icons-------------->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+  </head>
+
+  <body>
+    <!-- -------------------top header section---------------------------->
+    <div class="top-header">
+      <div class="out-box">
+        <div class="inside-box">
+          <div class="col-1">
+            <span><i class="bx bxs-envelope"></i>info@gmail.com</span>
+            <span><i class="bx bxs-phone-call"></i>123 456 789</span>
+          </div>
+
+          <div class="col-2">
+            <a href="#"><i class="bx bxs-arrow-from-left"></i>Login</a>
+            <a href="#"><i class="bx bx-user"></i>Register</a>
+            <span>Follow us:</span>
+            <div class="social">
+              <i class="bx bxl-facebook"></i>
+              <i class="bx bxl-twitter"></i>
+              <i class="bx bxl-instagram"></i>
+              <i class="bx bxl-linkedin"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--navbar section-->
+
+    <header class="header">
+      <div class="logo">
+        <a href ="#index.html"><img src="logo_blackbackground.png" alt="Logo" /></a>
+      </div>
+
+      <nav>
+          <ul class="navLink">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Inventory</a></li>
+
+            <li>
+            <div class = "dropdown">
+                <a href="#" id="pages">Pages<i class="bx bx-chevron-down"></i></p>
+                    <div class = "dropdown-content">
+                        <a href="#">About</a>
+                        <a href="#">Car Listing</a>
+                        <a href="#">My Account</a>
+                        <a href="#">Account</a>
+                    </div>
+            </div>
+            </li>
+
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+
+          <i class="bx bx-search"></i>
+          <i class="bx bx-cart"></i>
+          <button class="addBtn">
+            <i class="bx bx-plus-circle"></i>Add listing
+          </button>
+          <i class="bx bx-menu-alt-left"></i>
+      </nav>
+    </header>
+
+    <!--~~~~~~~~~~~~~~~~~home section~~~~~~~~~~~~~~~-->
+
+    <div class="home">
+        <div class="swiper myHome">
+            <div class="swiper-wrapper">
+                    <div class="swiper-slide slide slide-one">
+                        <div class="col-1">
+                            <h4>Welcome to AutoSeek!</h4>
+                            <h1>best way to find your <span>dream</span> car</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fugit aut itaque eos sapiente cum!</p>
+        
+                            <div class="button">
+                                <button type="submit" class='about'><i class='bx bx-right-arrow-alt'></i>About More</button>
+                                <button type="submit" class="learn"><i class='bx bx-right-arrow-alt'></i>Learn More</button>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <img src="./dodge-challenger-violet-car.png" alt="car1" width="950px" height="auto">
+                        </div>
+                    </div>
+
+
+
+                    <div class="swiper-slide slide slide-two">
+                        <div class="col-1">
+                            <h4>Welcome to AutoSeek!</h4>
+                            <h1>best way to find your <span>dream</span> car</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fugit aut itaque eos sapiente cum!</p>
+        
+                            <div class="button">
+                                <button type="submit" class='about'><i class='bx bx-right-arrow-alt'></i>About More</button>
+                                <button type="submit" class="learn"><i class='bx bx-right-arrow-alt'></i>Learn More</button>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <img src="./car2.png" alt="car2" width="950px" height="auto">
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide slide slide-three">
+                        <div class="col-1">
+                            <h4>Welcome to AutoSeek!</h4>
+                            <h1>best way to find your <span>dream</span> car</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fugit aut itaque eos sapiente cum!</p>
+        
+                            <div class="button">
+                                <button type="submit" class='about'><i class='bx bx-right-arrow-alt'></i>About More</button>
+                                <button type="submit" class="learn"><i class='bx bx-right-arrow-alt'></i>Learn More</button>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <img src="./car-png-16832.png" alt="car3" width="950px" height="auto">
+                        </div>
+                    </div>
+              
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+    </div>
+
+    <!-----------------------------------perfect section start--------------------->
+
+
+    <div class="search">
+        <div class="find">
+            <h3>Let's Find Your Perfect Car</h3>
+            <div class="find-row">
+                <div class="find-item">
+                    <h4>Car Condition</h4>
+                    <select >
+                        <option value="">All Status</option>
+                        <option value="">New Car</option>
+                        <option value="">Used Car</option>
+                    </select>
+                </div>
+
+                <div class="find-item">
+                    <h4>Brand Name</h4>
+                    <select>
+                        <option value="">All Brand</option>
+                        <option value="">BMW</option>
+                        <option value="">AUDI</option>
+                        <option value="">MERCEDES</option>
+                    </select>
+                </div>
+
+
+                <div class="find-item">
+                    <h4>Car Model</h4>
+                    <select>
+                        <option value="">All Model</option>
+                        <option value="">3er</option>
+                        <option value="">5er</option>
+                        <option value="">X5</option>
+                        <option value="">A3</option>
+                        <option value="">A4</option>
+                        <option value="">A5</option>
+                        <option value="">A6</option>
+                        <option value="">E-CLASS</option>
+                        <option value="">C-CLASS</option>
+                        <option value="">S-CLASS</option>
+                    </select>
+                </div>
+
+
+                <div class="find-item">
+                    <h4>All Years</h4>
+                    <select>
+                        <option value="">2023</option>
+                        <option value="">2022</option>
+                        <option value="">2022</option>
+                        <option value="">2021</option>
+                        <option value="">2020</option>
+                       
+                    </select>
+                </div>
+
+
+                <div class="find-item">
+                    <h4>Choose Milleage</h4>
+                    <select>
+                        <option value="">All Mileage</option>
+                        <option value="">2000km</option>
+                        <option value="">30000km</option>
+                        <option value="">4000km</option>
+                        <option value="">5000km+</option>
+                       
+                    </select>
+                </div>
+
+
+                <div class="find-item">
+                    <h4>Price range</h4>
+                    <select>
+                        <option value="">All Price</option>
+                        <option value="">1000-2000</option>
+                        <option value="">2000-3000</option>
+                        <option value="">3000-4000</option>
+                        <option value="">4000-5000</option>
+                       
+                    </select>
+                </div>
+                
+                <div class="find-item">
+                    <h4>Body Type</h4>
+                    <select>
+                        <option value="">All Body Type</option>
+                        <option value="">Sedan</option>
+                        <option value="">Compact</option>
+                        <option value="">Coupe</option>
+                        <option value="">Wagon</option>
+                       
+                    </select>
+                </div>
+
+                <div class="search-btn">
+                    <button><i class="bx bx-search"></i>Find your car</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    
+    <!---------------------arrivals section start--------------------------------->
+    <h4 id = "title"></i>New Arrivals</h4>
+    <h1 id = "title2">let's check latest <span>cars</span></h1>
+    <section class="arrivals">
+
+        <div class="arr-row">
+            <div class="arr-col">
+                <div class="image">
+                    <img src="./img/arrivals/01.jpg" alt="arr1">
+                </div>
+                <h5>MERCEDES BENZ A CLASS</h5>
+                <div class="rating">
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="review">
+                        <span>5.0 (5.8 5k Review)</span>
+                    </div>
+                </div>
+                <div class="features">
+                    <span><i class='bx bx-cog' ></i>Automatic</span>
+                    <span><i class='bx bx-car' ></i>10000km</span>
+                    <span><i class='bx bx-car' ></i>2022</span>
+                    <span><i class='bx bx-gas-pump' ></i>Petrol</span>
+                </div>
+                <div class="price">
+                    <p>45000</p>
+                    <button>Details</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="arr-row">
+            <div class="arr-col">
+                <div class="image">
+                    <img src="./img/arrivals/02.jpg" alt="arr1">
+                </div>
+                <h5>Ferrari</h5>
+                <div class="rating">
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="review">
+                        <span>5.0 (5.8 5k Review)</span>
+                    </div>
+                </div>
+                <div class="features">
+                    <span><i class='bx bx-cog' ></i>Automatic</span>
+                    <span><i class='bx bx-car' ></i>10000km</span>
+                    <span><i class='bx bx-car' ></i>2022</span>
+                    <span><i class='bx bx-gas-pump' ></i>Petrol</span>
+                </div>
+                <div class="price">
+                    <p>45000</p>
+                    <button>Details</button>
+                </div>
+            </div>
+        </div>
+
+
+       
+        <div class="arr-row">
+            <div class="arr-col">
+                <div class="image">
+                    <img src="./img/arrivals/03.jpg" alt="arr1">
+                </div>
+                <h5>AUDI</h5>
+                <div class="rating">
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="review">
+                        <span>5.0 (5.8 5k Review)</span>
+                    </div>
+                </div>
+                <div class="features">
+                    <span><i class='bx bx-cog' ></i>Automatic</span>
+                    <span><i class='bx bx-car' ></i>10000km</span>
+                    <span><i class='bx bx-car' ></i>2022</span>
+                    <span><i class='bx bx-gas-pump' ></i>Petrol</span>
+                </div>
+                <div class="price">
+                    <p>45000</p>
+                    <button>Details</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="arr-row">
+            <div class="arr-col">
+                <div class="image">
+                    <img src="./img/arrivals/04.jpg" alt="arr1">
+                </div>
+                <h5>BMW</h5>
+                <div class="rating">
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="review">
+                        <span>5.0 (5.8 5k Review)</span>
+                    </div>
+                </div>
+                <div class="features">
+                    <span><i class='bx bx-cog' ></i>Automatic</span>
+                    <span><i class='bx bx-car' ></i>10000km</span>
+                    <span><i class='bx bx-car' ></i>2022</span>
+                    <span><i class='bx bx-gas-pump' ></i>Petrol</span>
+                </div>
+                <div class="price">
+                    <p>45000</p>
+                    <button>Details</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="arr-row">
+            <div class="arr-col">
+                <div class="image">
+                    <img src="./img/arrivals/05.jpg" alt="arr1">
+                </div>
+                <h5>TESLA</h5>
+                <div class="rating">
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="review">
+                        <span>5.0 (5.8 5k Review)</span>
+                    </div>
+                </div>
+                <div class="features">
+                    <span><i class='bx bx-cog' ></i>Automatic</span>
+                    <span><i class='bx bx-car' ></i>10000km</span>
+                    <span><i class='bx bx-car' ></i>2022</span>
+                    <span><i class='bx bx-gas-pump' ></i>Petrol</span>
+                </div>
+                <div class="price">
+                    <p>45000</p>
+                    <button>Details</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="arr-row">
+            <div class="arr-col">
+                <div class="image">
+                    <img src="./img/arrivals/06.jpg" alt="arr1">
+                </div>
+                <h5>NISSAN</h5>
+                <div class="rating">
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="review">
+                        <span>5.0 (5.8 5k Review)</span>
+                    </div>
+                </div>
+                <div class="features">
+                    <span><i class='bx bx-cog' ></i>Automatic</span>
+                    <span><i class='bx bx-car' ></i>10000km</span>
+                    <span><i class='bx bx-car' ></i>2022</span>
+                    <span><i class='bx bx-gas-pump' ></i>Petrol</span>
+                </div>
+                <div class="price">
+                    <p>45000</p>
+                    <button>Details</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="arr-row">
+            <div class="arr-col">
+                <div class="image">
+                    <img src="./img/arrivals/07.jpg" alt="arr1">
+                </div>
+                <h5>MERCEDES BENZ ML</h5>
+                <div class="rating">
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="review">
+                        <span>5.0 (5.8 5k Review)</span>
+                    </div>
+                </div>
+                <div class="features">
+                    <span><i class='bx bx-cog' ></i>Automatic</span>
+                    <span><i class='bx bx-car' ></i>10000km</span>
+                    <span><i class='bx bx-car' ></i>2022</span>
+                    <span><i class='bx bx-gas-pump' ></i>Petrol</span>
+                </div>
+                <div class="price">
+                    <p>45000</p>
+                    <button>Details</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="arr-row">
+            <div class="arr-col">
+                <div class="image">
+                    <img src="./img/arrivals/08.jpg" alt="arr1">
+                </div>
+                <h5>HYUNDAI</h5>
+                <div class="rating">
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="review">
+                        <span>5.0 (5.8 5k Review)</span>
+                    </div>
+                </div>
+                <div class="features">
+                    <span><i class='bx bx-cog' ></i>Automatic</span>
+                    <span><i class='bx bx-car' ></i>10000km</span>
+                    <span><i class='bx bx-car' ></i>2022</span>
+                    <span><i class='bx bx-gas-pump' ></i>Petrol</span>
+                </div>
+                <div class="price">
+                    <p>45000</p>
+                    <button>Details</button>
+                </div>
+            </div>
+        </div>
+
+        
+
+    </section> 
+
+    <!--------------------load more button--------------------------->
+    <button class="load">Load more<i class='bx bx-sync' ></i></button>
+
+
+    <!------------------------body type section--------------------->
+    <h4 id="title2"><i class='bx bx-car'></i> Car Category</h4>
+    <h1 id="title">Car By Body <span>Types</span></h1>
+
+    <section class="type">
+    
+
+        <div class="type-col">
+            <img src="./img/type/01.png" alt="Car Type Image">
+            <h5>Sedan</h5>
+        </div>
+        
+        <div class="type-col">
+            <img src="./img/type/02.png" alt="Car Type Image">
+            <h5>Compact</h5>
+        </div>
+        
+        <div class="type-col">
+            <img src="./img/type/03.png" alt="Car Type Image">
+            <h5>Convertible</h5>
+        </div>
+        
+        <div class="type-col">
+            <img src="./img/type/04.png" alt="Car Type Image">
+            <h5>SUV</h5>
+        </div>
+        
+        <div class="type-col">
+            <img src="./img/type/05.png" alt="Car Type Image">
+            <h5>Crossover</h5>
+        </div>
+        
+        <div class="type-col">
+            <img src="./img/type/06.png" alt="Car Type Image">
+            <h5>Wagon</h5>
+        </div>
+        
+        <div class="type-col">
+            <img src="./img/type/07.png" alt="Car Type Image">
+            <h5>Sports Car</h5>
+        </div>
+        
+        <div class="type-col">
+            <img src="./img/type/08.png" alt="Car Type Image">
+            <h5>Pickup</h5>
+        </div>
+        
+        <div class="type-col">
+            <img src="./img/type/09.png" alt="Car Type Image">
+            <h5>MPV</h5>
+        </div>
+        
+        <div class="type-col">
+            <img src="./img/type/10.png" alt="Car Type Image">
+            <h5>Coupe</h5>
+        </div>
+        
+        <div class="type-col">
+            <img src="./img/type/11.png" alt="Car Type Image">
+            <h5>Electric</h5>
+        </div>
+        
+        <div class="type-col">
+            <img src="./img/type/12.png" alt="Car Type Image">
+            <h5>Luxury</h5>
+        </div>
+    </section>
+
+
+
+    <!----------------------------by brand section------------------------------>
+    <h4 id="title"><i class='bx bx-car'></i> Our Top Quality</h4>
+    <h1 id="title2">Brands</h1>
+    <section class="brand">
+            <div class="brand-col">
+                <img src="./img/brand/01_toyota.png" alt="Brand Logo">
+                <h5>Toyota</h5>
+            </div>
+
+            <div class="brand-col">
+                <img src="./img/brand/02_porsche.png" alt="Brand Logo">
+                <h5>Porsche</h5>
+            </div>
+            
+            <div class="brand-col">
+                <img src="./img/brand/03_bmw.png" alt="Brand Logo">
+                <h5>BMW</h5>
+            </div>
+
+            
+            <div class="brand-col">
+                <img src="./img/brand/04_audi.png" alt="Brand Logo">
+                <h5>AUDI</h5>
+            </div>
+            
+            <div class="brand-col">
+                <img src="./img/brand/10_alfa_romeo.png" alt="Brand Logo">
+                <h5>Alfa Romeo</h5>
+            </div>
+            
+            <div class="brand-col">
+                <img src="./img/brand/06_masserati.png" alt="Brand Logo">
+                <h5>MASSERATI</h5>
+            </div>
+            
+            <div class="brand-col">
+                <img src="./img/brand/07_hyundai.png" alt="Brand Logo">
+                <h5>HYUNDAI</h5>
+            </div>
+
+            
+            <div class="brand-col">
+                <img src="./img/brand/08_bentley.png" alt="Brand Logo">
+                <h5>Bentley</h5>
+            </div>
+
+    </section>
+    
+    
+
+<!-- -----------------Footer Section ---------- --> 
+
+
+
+<footer>
+    <div class="footer">
+    <div class="row">
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-instagram"></i></a>
+    <a href="#"><i class="fa fa-youtube"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    </div>
+    
+    <div class="row">
+    <ul>
+    <li><a href="#">Contact us</a></li>
+    <li><a href="#">Our Services</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+    <li><a href="#">Terms & Conditions</a></li>
+    <li><a href="#">Career</a></li>
+    </ul>
+    </div>
+    
+    <div class="row">
+    AutoSeek Copyright © 2023 AutoSeek - All rights reserved || Designed By: DJRESKUP
+    </div>
+    </div>
+    </footer>
+
+
+
+
+
+    <!--swiper script-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
